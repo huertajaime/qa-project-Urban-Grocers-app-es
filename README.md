@@ -10,6 +10,9 @@
 - Instalacion de la libreria requests.
 - Instalacion de la libreria pytest para cada funcion creada para cada prueba de la lista de comprobacion.
 
+## Los métodos GET , POST , PUT , y DELETE están todos cubiertos.
+- Solo se cubren los metodos GET y POST en este proyecto.
+
 ##Pruebas que coinciden con la documentacion 
 
 Prueba 1. El número permitido de caracteres (1) > Código de respuesta: 201 
