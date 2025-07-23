@@ -1,11 +1,11 @@
 # Proyecto Urban Grocers 
 ## _Las pruebas realizadas en este proyecto del 7mo Sprint se enfoca en realizar pruebas de la lista de comprobacion para el parametro 'name' de un kit body al momento de crear un nuevo kit._
 
-##Fuentes utilizadas
+## Fuentes utilizadas
 - Revision de proyecto.
 - Webinar - Sprint 7 - Introduccion a la automatizacion de pruebas.
 
-##Tecnologias y tecnicas utilizadas
+## Tecnologias y tecnicas utilizadas
 - libreras importadas:
 - Instalacion de la libreria requests.
 - Instalacion de la libreria pytest para cada funcion creada para cada prueba de la lista de comprobacion.
@@ -13,7 +13,7 @@
 ## Los métodos GET , POST , PUT , y DELETE están todos cubiertos.
 - Solo se cubren los metodos GET y POST en este proyecto.
 
-##Pruebas que coinciden con la documentacion 
+## Pruebas que coinciden con la documentacion 
 
 Prueba 1. El número permitido de caracteres (1) > Código de respuesta: 201 
 > El campo "name" del cuerpo de la respuesta coincide con el campo "name" del cuerpo de la solicitud
@@ -57,7 +57,7 @@ def test_create_no_input_name_parameter_kit_error():
 E       TypeError: get_kit_body() missing 1 required positional argument: 'kit_name'
 ```
 
-##Pruebas que no coinciden con la documentacion
+## Pruebas que no coinciden con la documentacion
 Prueba 3. El número de caracteres es menor que la cantidad permitida (0) > Código de respuesta: 400
 ```sh
  test_create_user_empty_kit_name_get_error_response():
