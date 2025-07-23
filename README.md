@@ -10,7 +10,7 @@
 - Instalacion de la libreria requests.
 - Instalacion de la libreria pytest para cada funcion creada para cada prueba de la lista de comprobacion.
 
-##Pruebas que coinciden con la documentacion
+##Pruebas que coinciden con la documentacion 
 Prueba 1. El número permitido de caracteres (1) > Código de respuesta: 201 
 > El campo "name" del cuerpo de la respuesta coincide con el campo "name" del cuerpo de la solicitud
 ```sh
@@ -38,16 +38,16 @@ create_kit_name_kit_test.py::test_create_kit_with_spaces_allowed PASSED  [100%]
 Prueba 7. Se permiten números > Código de respuesta: 201
 > El campo "name" del cuerpo de la respuesta coincide con el campo "name" del cuerpo de la solicitud
 ```sh
-test_create_no_parameter_input_name_kit_error():
+test_create_kit_with_numbers_allowed():
 create_kit_name_kit_test.py::test_create_kit_with_numbers_allowed PASSED [100%]
 ```
 Prueba 8. El parámetro no se pasa en la solicitud 
 > Código de respuesta: 400
 ```sh
-test_create_no_parameter_input_name_kit_error():
-create_kit_name_kit_test.py::test_create_no_parameter_input_name_kit_error FAILED [100%]
-create_kit_name_kit_test.py:52 (test_create_no_parameter_input_name_kit_error)
-def test_create_no_parameter_input_name_kit_error():
+test_create_no_input_name_parameter_kit_error():
+create_kit_name_kit_test.py::test_create_no_input_name_parameter_kit_error FAILED [100%]
+create_kit_name_kit_test.py:49 (test_create_no_input_name_parameter_kit_error)
+def test_create_no_input_name_parameter_kit_error():
 >       new_kit_body = get_kit_body()
                        ^^^^^^^^^^^^^^
 E       TypeError: get_kit_body() missing 1 required positional argument: 'kit_name'
