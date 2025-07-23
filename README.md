@@ -56,17 +56,7 @@ def test_create_no_input_name_parameter_kit_error():
                        ^^^^^^^^^^^^^^
 E       TypeError: get_kit_body() missing 1 required positional argument: 'kit_name'
 ```
-Prueba 9. Se ha pasado un tipo de parámetro diferente (número) 
-> Código de respuesta: 400
-```sh
-test_create_with_numeric_name_error():
-create_kit_name_kit_test.py::test_create_with_numeric_name_error FAILED  [100%]
-create_kit_name_kit_test.py:56 (test_create_with_numeric_name_error)
-201 != 400
 
-Expected :400
-Actual   :201
-```
 ##Pruebas que no coinciden con la documentacion
 Prueba 3. El número de caracteres es menor que la cantidad permitida (0) > Código de respuesta: 400
 ```sh
@@ -85,6 +75,17 @@ Prueba 4. El número de caracteres es mayor que la cantidad permitida (512)
 test_create_kit_with_512_letter_name():
 create_kit_name_kit_test.py::test_create_kit_with_512_letter_name FAILED [100%]
 create_kit_name_kit_test.py:36 (test_create_kit_with_512_letter_name)
+201 != 400
+
+Expected :400
+Actual   :201
+```
+Prueba 9. Se ha pasado un tipo de parámetro diferente (número) 
+> Código de respuesta: 400
+```sh
+test_create_with_numeric_name_error():
+create_kit_name_kit_test.py::test_create_with_numeric_name_error FAILED  [100%]
+create_kit_name_kit_test.py:56 (test_create_with_numeric_name_error)
 201 != 400
 
 Expected :400
