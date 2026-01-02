@@ -1,5 +1,5 @@
 # Proyecto Urban Grocers 
-## _Las pruebas realizadas en este proyecto del 7mo Sprint se enfoca en realizar pruebas de la lista de comprobacion para el parametro 'name' de un kit body al momento de crear un nuevo kit._
+## _Las pruebas realizadas en este proyecto del 8vo Sprint se enfoca en realizar pruebas de la lista de comprobacion para el parametro 'name' de un kit body al momento de crear un nuevo kit._
 
 ## Fuentes utilizadas
 - Revision de proyecto.
