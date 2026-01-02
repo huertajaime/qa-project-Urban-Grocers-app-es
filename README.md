@@ -6,6 +6,8 @@
 - Webinar - Sprint 7 - Introduccion a la automatizacion de pruebas.
 
 ## Tecnologias y tecnicas utilizadas
+- Pruebas negativas
+- Analisis de valores limite.
 - libreras importadas:
 - Instalacion de la libreria requests.
 - Instalacion de la libreria pytest para cada funcion creada para cada prueba de la lista de comprobacion.
